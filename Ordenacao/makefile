@@ -17,3 +17,10 @@ selection:
 insertion:
 	python3 $(MAIN) insertion "$(INSTANCE)"
 
+# Realizar testes do merge_sort utilizando uma instância fornecida via parâmetro, podendo esta ser representada por um array ou pelo path de um arquivo.
+merge:
+	python3 $(MAIN) insertion "$(INSTANCE)"
+
+# Realizar testes do quick_sort utilizando uma instância fornecida via parâmetro, podendo esta ser representada por um array ou pelo path de um arquivo.
+quick:
+	python3 $(MAIN) insertion "$(INSTANCE)"
